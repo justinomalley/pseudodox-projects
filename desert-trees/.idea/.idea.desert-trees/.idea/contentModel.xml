@@ -663,6 +663,8 @@
             </e>
           </e>
         </e>
+        <e p="RoomRipper.cs" t="Include" />
+        <e p="ScaleTripper.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Rotate.cs" t="Include" />
           <e p="yo.cs" t="Include" />

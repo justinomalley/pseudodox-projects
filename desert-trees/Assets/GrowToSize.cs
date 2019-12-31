@@ -2,6 +2,7 @@
 
 public class GrowToSize : MonoBehaviour
 {
+    public float speed;
     private float scale = 0;
     
     // Start is called before the first frame update
@@ -15,7 +16,7 @@ public class GrowToSize : MonoBehaviour
         {
             Debug.Log("yo");
             transform.localScale = new Vector3(scale, scale, scale);
-            scale += Time.deltaTime;
+            scale += Time.deltaTime * speed;
         }
     }
 }
