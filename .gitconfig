@@ -1,0 +1,6 @@
+[mergetool "unity"]
+	trustExitCode = false
+	keepBackup = false
+	# In theory, you should update this when you update Unity.
+        # Definitely fix it if you don't have that version of Unity installed.
+	cmd = '/C/Program Files/Unity/Hub/Editor/2019.2.12f1/Editor/Data/Tools/UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
