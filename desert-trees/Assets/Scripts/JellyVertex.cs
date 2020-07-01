@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class JellyVertex {
     
-    public int verticeIndex;
+    public int vertexIndex;
     public Vector3 initialPos;
     public Vector3 currPos;
 
     public Vector3 currVelocity;
 
-    public JellyVertex(int _verticeIndex, Vector3 _initialPos, Vector3 _currPos, Vector3 _currVelocity) {
-        verticeIndex = _verticeIndex;
+    public JellyVertex(int vIndex, Vector3 _initialPos, Vector3 _currPos, Vector3 _currVelocity) {
+        vertexIndex = vIndex;
         initialPos = _initialPos;
         currPos = _currPos;
         currVelocity = _currVelocity;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Jellyfier : MonoBehaviour {
+public class JellyfierGPU : MonoBehaviour {
     
     public float bounceSpeed, fallForce, stiffness;
 
@@ -14,7 +14,7 @@ public class Jellyfier : MonoBehaviour {
         meshFilter = GetComponent<MeshFilter>();
         mesh = meshFilter.mesh;
 
-        GetVertices();
+        GetVertices(); 
     }
     
     void GetVertices() {

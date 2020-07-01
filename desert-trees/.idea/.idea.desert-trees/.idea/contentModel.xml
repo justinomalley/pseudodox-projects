@@ -664,6 +664,7 @@
         <e p="Scripts" t="Include">
           <e p="GrowToSize.cs" t="Include" />
           <e p="Jellyfier.cs" t="Include" />
+          <e p="JellyfierGPU.cs" t="Include" />
           <e p="JellyVertex.cs" t="Include" />
           <e p="MugSpawner.cs" t="Include" />
           <e p="RoomRipper.cs" t="Include" />
@@ -673,6 +674,7 @@
         </e>
         <e p="Shaders" t="Include">
           <e p="GradientSkybox.shader" t="Include" />
+          <e p="JiggleShader.shader" t="Include" />
           <e p="VertexColor.shader" t="Include" />
         </e>
       </e>
